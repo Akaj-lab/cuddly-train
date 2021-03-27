@@ -1,0 +1,14 @@
+program prebere standarden vhod za velikosti loncev
+te razvrsti po velikosti (od največjega do najmanjšega), vrednosti zapiše v seznam lonci
+ustvari seznam seznamov imenovan izhod
+začne:
+    najprej vzame 1. element in ga primerja z drugi če je enak oba doda v izhod (vsakega v svoj seznam) 
+                                                    če ni ju zapovrsto zapiše v isti seznam 
+    oba odstrani s seznama lonci
+    nato vzame sedaj 1. element katerega velikost primmerja z vsakim zadnjim elementov n seznamih v izhodu, če so vsi preveliki ga doda v nov seznam
+
+    to ponavlja dokler ne zmanjka lovncev. 
+
+v spremenljivki sestevek sešteje vse 1. elemente v seznamih v izhod
+
+vrne seznam izhod in vrednost sestevek
